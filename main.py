@@ -27,6 +27,7 @@ K = assemble_global(nodes, elems, k=k)
 bc_nodes = [node for node, val in bcs['temperature']]
 bc_values = [val for node, val in bcs['temperature']]
 Kmod, fmod = apply_dirichlet(K, np.zeros(nodes.shape[0]), bc_nodes, bc_values)
+fmod       = apply_heat_flux(fmod, nodes, elems, bc_values)
 Kmod, fmod = apply_convection(K, fmod, nodes, elems, bc_values)
 
 #
