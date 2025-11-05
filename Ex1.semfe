@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <SEMFE_spec>
   <Module type="heat conduction"/>
-  <Globals>
-    <Constants>
-      <heat_capacity>1.0</heat_capacity>
-    </Constants>
-  </Globals>
+
   
   <Materials>
     <Material id="1" name="Steel">
