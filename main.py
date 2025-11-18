@@ -15,7 +15,7 @@ from PostProcessor import export_temperature_csv
 
 
 # Import model info
-nodes, elems, materials, k, bcs = read_input_file('Ex1.semfe')
+nodes, elems, materials, k, bcs = read_input_file('validation.semfe')
 
 # Check Mesh Quality
 plot_mesh_interactive(nodes, elems, show=True, filename='interactive_mesh2.html')

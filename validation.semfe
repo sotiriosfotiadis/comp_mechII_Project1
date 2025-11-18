@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SEMFE_spec>
+  <Module type="heat conduction"/>
+
+  
+  <Materials>
+    <Material id="1" name="Steel">
+      <conductivity>2.5</conductivity>
+    </Material>
+  </Materials>
+  
+  <Geometry>
+    <!-- 5 nodes forming a square, split into 3 triangles -->
+    <Nodes>
+      <node id="1" x="0.0" y="0.0" z="0.0"/>
+      <node id="2" x="0.4" y="0.0" z="0.0"/>
+      <node id="3" x="0.4" y="0.15" z="0.0"/>
+      <node id="4" x="0.4" y="0.3" z="0.0"/>
+      <node id="4" x="0.0" y="0.3" z="0.0"/>
+    </Nodes>
+    
+    <Elements type="tri3" name="mesh">
+      <!-- triangles using node IDs -->
+      <elem id="1">1 2 3</elem>
+      <elem id="2">1 3 5</elem>
+      <elem id="2">3 4 5</elem>
+    </Elements>
+  </Geometry>
+  
+  <BoundaryConditions>
+    <Boundary>
+      <!-- Fixed temperature at top edge -->
+      <temperature node="5" value="180.0"/>
+      <temperature node="4" value="180.0"/>
+    </Boundary>
+    
+    
+  <!-- edge-based heat flux (Neumann BC) -->
+  <HeatFlux>
+    <!-- element id, local edge id (1–3 for tri3), and flux value -->
+    <flux elem="1" edge="1" value="0.0"/>  
+    <flux elem="2" edge="3" value="0.0"/>
+  </HeatFlux>
+
+  <!-- convection boundary (Robin BC) -->
+  <Convection>
+    <conv elem="3" edge="1" h="50.0" Tinf="25.0"/>
+    <conv elem="1" edge="2" h="50.0" Tinf="25.0"/>
+  </Convection>
+  
+  </BoundaryConditions>
+  
+  <Step name="step1" type="steady-state">
+    <HeatSource>
+      <!-- optional internal heat source if desired -->
+    </HeatSource>
+  </Step>
+</SEMFE_spec>
