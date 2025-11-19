@@ -16,14 +16,14 @@
       <node id="2" x="0.4" y="0.0" z="0.0"/>
       <node id="3" x="0.4" y="0.15" z="0.0"/>
       <node id="4" x="0.4" y="0.3" z="0.0"/>
-      <node id="4" x="0.0" y="0.3" z="0.0"/>
+      <node id="5" x="0.0" y="0.3" z="0.0"/>
     </Nodes>
     
     <Elements type="tri3" name="mesh">
       <!-- triangles using node IDs -->
       <elem id="1">1 2 3</elem>
       <elem id="2">1 3 5</elem>
-      <elem id="2">3 4 5</elem>
+      <elem id="3">3 4 5</elem>
     </Elements>
   </Geometry>
   
