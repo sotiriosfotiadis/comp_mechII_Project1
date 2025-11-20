@@ -5,7 +5,7 @@
   
   <Materials>
     <Material id="1" name="Steel">
-      <conductivity>2.5</conductivity>
+      <conductivity>1.5</conductivity>
     </Material>
   </Materials>
   
