@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SEMFE_spec>
+  <Module type="heat conduction"/>
+
+  <Materials>
+    <Material id="1" name="Brick">
+      <conductivity>1.5</conductivity>
+    </Material>
+  </Materials>
+
+  <Geometry>
+    <Nodes>
+      <node id="1" x="0.0" y="0.0" z="0.0"/>
+      <node id="2" x="0.04" y="0.0" z="0.0"/>
+      <node id="3" x="0.08" y="0.0" z="0.0"/>
+      <node id="4" x="0.12" y="0.0" z="0.0"/>
+      <node id="5" x="0.16" y="0.0" z="0.0"/>
+      <node id="6" x="0.2" y="0.0" z="0.0"/>
+      <node id="7" x="0.24" y="0.0" z="0.0"/>
+      <node id="8" x="0.28" y="0.0" z="0.0"/>
+      <node id="9" x="0.32" y="0.0" z="0.0"/>
+      <node id="10" x="0.36" y="0.0" z="0.0"/>
+      <node id="11" x="0.4" y="0.0" z="0.0"/>
+      <node id="12" x="0.44" y="0.0" z="0.0"/>
+      <node id="13" x="0.48" y="0.0" z="0.0"/>
+      <node id="14" x="0.52" y="0.0" z="0.0"/>
+      <node id="15" x="0.56" y="0.0" z="0.0"/>
+      <node id="16" x="0.6" y="0.0" z="0.0"/>
+      <node id="17" x="0.64" y="0.0" z="0.0"/>
+      <node id="18" x="0.68" y="0.0" z="0.0"/>
+      <node id="19" x="0.72" y="0.0" z="0.0"/>
+      <node id="20" x="0.76" y="0.0" z="0.0"/>
+      <node id="21" x="0.8" y="0.0" z="0.0"/>
+      <node id="22" x="0.0" y="0.04" z="0.0"/>
+      <node id="23" x="0.04" y="0.04" z="0.0"/>
+      <node id="24" x="0.08" y="0.04" z="0.0"/>
+      <node id="25" x="0.12" y="0.04" z="0.0"/>
+      <node id="26" x="0.16" y="0.04" z="0.0"/>
+      <node id="27" x="0.2" y="0.04" z="0.0"/>
+      <node id="28" x="0.24" y="0.04" z="0.0"/>
+      <node id="29" x="0.28" y="0.04" z="0.0"/>
+      <node id="30" x="0.32" y="0.04" z="0.0"/>
+      <node id="31" x="0.36" y="0.04" z="0.0"/>
+      <node id="32" x="0.4" y="0.04" z="0.0"/>
+      <node id="33" x="0.44" y="0.04" z="0.0"/>
+      <node id="34" x="0.48" y="0.04" z="0.0"/>
+      <node id="35" x="0.52" y="0.04" z="0.0"/>
+      <node id="36" x="0.56" y="0.04" z="0.0"/>
+      <node id="37" x="0.6" y="0.04" z="0.0"/>
+      <node id="38" x="0.64" y="0.04" z="0.0"/>
+      <node id="39" x="0.68" y="0.04" z="0.0"/>
+      <node id="40" x="0.72" y="0.04" z="0.0"/>
+      <node id="41" x="0.76" y="0.04" z="0.0"/>
+      <node id="42" x="0.8" y="0.04" z="0.0"/>
+      <node id="43" x="0.0" y="0.08" z="0.0"/>
+      <node id="44" x="0.04" y="0.08" z="0.0"/>
+      <node id="45" x="0.08" y="0.08" z="0.0"/>
+      <node id="46" x="0.12" y="0.08" z="0.0"/>
+      <node id="47" x="0.16" y="0.08" z="0.0"/>
+      <node id="48" x="0.2" y="0.08" z="0.0"/>
+      <node id="49" x="0.24" y="0.08" z="0.0"/>
+      <node id="50" x="0.28" y="0.08" z="0.0"/>
+      <node id="51" x="0.32" y="0.08" z="0.0"/>
+      <node id="52" x="0.36" y="0.08" z="0.0"/>
+      <node id="53" x="0.4" y="0.08" z="0.0"/>
+      <node id="54" x="0.44" y="0.08" z="0.0"/>
+      <node id="55" x="0.48" y="0.08" z="0.0"/>
+      <node id="56" x="0.52" y="0.08" z="0.0"/>
+      <node id="57" x="0.56" y="0.08" z="0.0"/>
+      <node id="58" x="0.6" y="0.08" z="0.0"/>
+      <node id="59" x="0.64" y="0.08" z="0.0"/>
+      <node id="60" x="0.68" y="0.08" z="0.0"/>
+      <node id="61" x="0.72" y="0.08" z="0.0"/>
+      <node id="62" x="0.76" y="0.08" z="0.0"/>
+      <node id="63" x="0.8" y="0.08" z="0.0"/>
+      <node id="64" x="0.0" y="0.12" z="0.0"/>
+      <node id="65" x="0.04" y="0.12" z="0.0"/>
+      <node id="66" x="0.08" y="0.12" z="0.0"/>
+      <node id="67" x="0.12" y="0.12" z="0.0"/>
+      <node id="68" x="0.16" y="0.12" z="0.0"/>
+      <node id="69" x="0.2" y="0.12" z="0.0"/>
+      <node id="70" x="0.24" y="0.12" z="0.0"/>
+      <node id="71" x="0.28" y="0.12" z="0.0"/>
+      <node id="72" x="0.32" y="0.12" z="0.0"/>
+      <node id="73" x="0.36" y="0.12" z="0.0"/>
+      <node id="74" x="0.4" y="0.12" z="0.0"/>
+      <node id="75" x="0.44" y="0.12" z="0.0"/>
+      <node id="76" x="0.48" y="0.12" z="0.0"/>
+      <node id="77" x="0.52" y="0.12" z="0.0"/>
+      <node id="78" x="0.56" y="0.12" z="0.0"/>
+      <node id="79" x="0.6" y="0.12" z="0.0"/>
+      <node id="80" x="0.64" y="0.12" z="0.0"/>
+      <node id="81" x="0.68" y="0.12" z="0.0"/>
+      <node id="82" x="0.72" y="0.12" z="0.0"/>
+      <node id="83" x="0.76" y="0.12" z="0.0"/>
+      <node id="84" x="0.8" y="0.12" z="0.0"/>
+      <node id="85" x="0.0" y="0.16" z="0.0"/>
+      <node id="86" x="0.04" y="0.16" z="0.0"/>
+      <node id="87" x="0.08" y="0.16" z="0.0"/>
+      <node id="88" x="0.12" y="0.16" z="0.0"/>
+      <node id="89" x="0.16" y="0.16" z="0.0"/>
+      <node id="90" x="0.2" y="0.16" z="0.0"/>
+      <node id="91" x="0.24" y="0.16" z="0.0"/>
+      <node id="92" x="0.28" y="0.16" z="0.0"/>
+      <node id="93" x="0.32" y="0.16" z="0.0"/>
+      <node id="94" x="0.36" y="0.16" z="0.0"/>
+      <node id="95" x="0.4" y="0.16" z="0.0"/>
+      <node id="96" x="0.44" y="0.16" z="0.0"/>
+      <node id="97" x="0.48" y="0.16" z="0.0"/>
+      <node id="98" x="0.52" y="0.16" z="0.0"/>
+      <node id="99" x="0.56" y="0.16" z="0.0"/>
+      <node id="100" x="0.6" y="0.16" z="0.0"/>
+      <node id="101" x="0.64" y="0.16" z="0.0"/>
+      <node id="102" x="0.68" y="0.16" z="0.0"/>
+      <node id="103" x="0.72" y="0.16" z="0.0"/>
+      <node id="104" x="0.76" y="0.16" z="0.0"/>
+      <node id="105" x="0.8" y="0.16" z="0.0"/>
+      <node id="106" x="0.0" y="0.2" z="0.0"/>
+      <node id="107" x="0.04" y="0.2" z="0.0"/>
+      <node id="108" x="0.08" y="0.2" z="0.0"/>
+      <node id="109" x="0.12" y="0.2" z="0.0"/>
+      <node id="110" x="0.16" y="0.2" z="0.0"/>
+      <node id="111" x="0.2" y="0.2" z="0.0"/>
+      <node id="112" x="0.24" y="0.2" z="0.0"/>
+      <node id="113" x="0.28" y="0.2" z="0.0"/>
+      <node id="114" x="0.32" y="0.2" z="0.0"/>
+      <node id="115" x="0.36" y="0.2" z="0.0"/>
+      <node id="116" x="0.4" y="0.2" z="0.0"/>
+      <node id="117" x="0.44" y="0.2" z="0.0"/>
+      <node id="118" x="0.48" y="0.2" z="0.0"/>
+      <node id="119" x="0.52" y="0.2" z="0.0"/>
+      <node id="120" x="0.56" y="0.2" z="0.0"/>
+      <node id="121" x="0.6" y="0.2" z="0.0"/>
+      <node id="122" x="0.64" y="0.2" z="0.0"/>
+      <node id="123" x="0.68" y="0.2" z="0.0"/>
+      <node id="124" x="0.72" y="0.2" z="0.0"/>
+      <node id="125" x="0.76" y="0.2" z="0.0"/>
+      <node id="126" x="0.8" y="0.2" z="0.0"/>
+      <node id="127" x="0.0" y="0.24" z="0.0"/>
+      <node id="128" x="0.04" y="0.24" z="0.0"/>
+      <node id="129" x="0.08" y="0.24" z="0.0"/>
+      <node id="130" x="0.12" y="0.24" z="0.0"/>
+      <node id="131" x="0.16" y="0.24" z="0.0"/>
+      <node id="132" x="0.2" y="0.24" z="0.0"/>
+      <node id="133" x="0.6" y="0.24" z="0.0"/>
+      <node id="134" x="0.64" y="0.24" z="0.0"/>
+      <node id="135" x="0.68" y="0.24" z="0.0"/>
+      <node id="136" x="0.72" y="0.24" z="0.0"/>
+      <node id="137" x="0.76" y="0.24" z="0.0"/>
+      <node id="138" x="0.8" y="0.24" z="0.0"/>
+      <node id="139" x="0.0" y="0.28" z="0.0"/>
+      <node id="140" x="0.04" y="0.28" z="0.0"/>
+      <node id="141" x="0.08" y="0.28" z="0.0"/>
+      <node id="142" x="0.12" y="0.28" z="0.0"/>
+      <node id="143" x="0.16" y="0.28" z="0.0"/>
+      <node id="144" x="0.2" y="0.28" z="0.0"/>
+      <node id="145" x="0.6" y="0.28" z="0.0"/>
+      <node id="146" x="0.64" y="0.28" z="0.0"/>
+      <node id="147" x="0.68" y="0.28" z="0.0"/>
+      <node id="148" x="0.72" y="0.28" z="0.0"/>
+      <node id="149" x="0.76" y="0.28" z="0.0"/>
+      <node id="150" x="0.8" y="0.28" z="0.0"/>
+      <node id="151" x="0.0" y="0.32" z="0.0"/>
+      <node id="152" x="0.04" y="0.32" z="0.0"/>
+      <node id="153" x="0.08" y="0.32" z="0.0"/>
+      <node id="154" x="0.12" y="0.32" z="0.0"/>
+      <node id="155" x="0.16" y="0.32" z="0.0"/>
+      <node id="156" x="0.2" y="0.32" z="0.0"/>
+      <node id="157" x="0.6" y="0.32" z="0.0"/>
+      <node id="158" x="0.64" y="0.32" z="0.0"/>
+      <node id="159" x="0.68" y="0.32" z="0.0"/>
+      <node id="160" x="0.72" y="0.32" z="0.0"/>
+      <node id="161" x="0.76" y="0.32" z="0.0"/>
+      <node id="162" x="0.8" y="0.32" z="0.0"/>
+      <node id="163" x="0.0" y="0.36" z="0.0"/>
+      <node id="164" x="0.04" y="0.36" z="0.0"/>
+      <node id="165" x="0.08" y="0.36" z="0.0"/>
+      <node id="166" x="0.12" y="0.36" z="0.0"/>
+      <node id="167" x="0.16" y="0.36" z="0.0"/>
+      <node id="168" x="0.2" y="0.36" z="0.0"/>
+      <node id="169" x="0.6" y="0.36" z="0.0"/>
+      <node id="170" x="0.64" y="0.36" z="0.0"/>
+      <node id="171" x="0.68" y="0.36" z="0.0"/>
+      <node id="172" x="0.72" y="0.36" z="0.0"/>
+      <node id="173" x="0.76" y="0.36" z="0.0"/>
+      <node id="174" x="0.8" y="0.36" z="0.0"/>
+      <node id="175" x="0.0" y="0.4" z="0.0"/>
+      <node id="176" x="0.04" y="0.4" z="0.0"/>
+      <node id="177" x="0.08" y="0.4" z="0.0"/>
+      <node id="178" x="0.12" y="0.4" z="0.0"/>
+      <node id="179" x="0.16" y="0.4" z="0.0"/>
+      <node id="180" x="0.2" y="0.4" z="0.0"/>
+      <node id="181" x="0.24" y="0.4" z="0.0"/>
+      <node id="182" x="0.28" y="0.4" z="0.0"/>
+      <node id="183" x="0.32" y="0.4" z="0.0"/>
+      <node id="184" x="0.36" y="0.4" z="0.0"/>
+      <node id="185" x="0.4" y="0.4" z="0.0"/>
+      <node id="186" x="0.44" y="0.4" z="0.0"/>
+      <node id="187" x="0.48" y="0.4" z="0.0"/>
+      <node id="188" x="0.52" y="0.4" z="0.0"/>
+      <node id="189" x="0.56" y="0.4" z="0.0"/>
+      <node id="190" x="0.6" y="0.4" z="0.0"/>
+      <node id="191" x="0.64" y="0.4" z="0.0"/>
+      <node id="192" x="0.68" y="0.4" z="0.0"/>
+      <node id="193" x="0.72" y="0.4" z="0.0"/>
+      <node id="194" x="0.76" y="0.4" z="0.0"/>
+      <node id="195" x="0.8" y="0.4" z="0.0"/>
+      <node id="196" x="0.0" y="0.44" z="0.0"/>
+      <node id="197" x="0.04" y="0.44" z="0.0"/>
+      <node id="198" x="0.08" y="0.44" z="0.0"/>
+      <node id="199" x="0.12" y="0.44" z="0.0"/>
+      <node id="200" x="0.16" y="0.44" z="0.0"/>
+      <node id="201" x="0.2" y="0.44" z="0.0"/>
+      <node id="202" x="0.24" y="0.44" z="0.0"/>
+      <node id="203" x="0.28" y="0.44" z="0.0"/>
+      <node id="204" x="0.32" y="0.44" z="0.0"/>
+      <node id="205" x="0.36" y="0.44" z="0.0"/>
+      <node id="206" x="0.4" y="0.44" z="0.0"/>
+      <node id="207" x="0.44" y="0.44" z="0.0"/>
+      <node id="208" x="0.48" y="0.44" z="0.0"/>
+      <node id="209" x="0.52" y="0.44" z="0.0"/>
+      <node id="210" x="0.56" y="0.44" z="0.0"/>
+      <node id="211" x="0.6" y="0.44" z="0.0"/>
+      <node id="212" x="0.64" y="0.44" z="0.0"/>
+      <node id="213" x="0.68" y="0.44" z="0.0"/>
+      <node id="214" x="0.72" y="0.44" z="0.0"/>
+      <node id="215" x="0.76" y="0.44" z="0.0"/>
+      <node id="216" x="0.8" y="0.44" z="0.0"/>
+      <node id="217" x="0.0" y="0.48" z="0.0"/>
+      <node id="218" x="0.04" y="0.48" z="0.0"/>
+      <node id="219" x="0.08" y="0.48" z="0.0"/>
+      <node id="220" x="0.12" y="0.48" z="0.0"/>
+      <node id="221" x="0.16" y="0.48" z="0.0"/>
+      <node id="222" x="0.2" y="0.48" z="0.0"/>
+      <node id="223" x="0.24" y="0.48" z="0.0"/>
+      <node id="224" x="0.28" y="0.48" z="0.0"/>
+      <node id="225" x="0.32" y="0.48" z="0.0"/>
+      <node id="226" x="0.36" y="0.48" z="0.0"/>
+      <node id="227" x="0.4" y="0.48" z="0.0"/>
+      <node id="228" x="0.44" y="0.48" z="0.0"/>
+      <node id="229" x="0.48" y="0.48" z="0.0"/>
+      <node id="230" x="0.52" y="0.48" z="0.0"/>
+      <node id="231" x="0.56" y="0.48" z="0.0"/>
+      <node id="232" x="0.6" y="0.48" z="0.0"/>
+      <node id="233" x="0.64" y="0.48" z="0.0"/>
+      <node id="234" x="0.68" y="0.48" z="0.0"/>
+      <node id="235" x="0.72" y="0.48" z="0.0"/>
+      <node id="236" x="0.76" y="0.48" z="0.0"/>
+      <node id="237" x="0.8" y="0.48" z="0.0"/>
+      <node id="238" x="0.0" y="0.52" z="0.0"/>
+      <node id="239" x="0.04" y="0.52" z="0.0"/>
+      <node id="240" x="0.08" y="0.52" z="0.0"/>
+      <node id="241" x="0.12" y="0.52" z="0.0"/>
+      <node id="242" x="0.16" y="0.52" z="0.0"/>
+      <node id="243" x="0.2" y="0.52" z="0.0"/>
+      <node id="244" x="0.24" y="0.52" z="0.0"/>
+      <node id="245" x="0.28" y="0.52" z="0.0"/>
+      <node id="246" x="0.32" y="0.52" z="0.0"/>
+      <node id="247" x="0.36" y="0.52" z="0.0"/>
+      <node id="248" x="0.4" y="0.52" z="0.0"/>
+      <node id="249" x="0.44" y="0.52" z="0.0"/>
+      <node id="250" x="0.48" y="0.52" z="0.0"/>
+      <node id="251" x="0.52" y="0.52" z="0.0"/>
+      <node id="252" x="0.56" y="0.52" z="0.0"/>
+      <node id="253" x="0.6" y="0.52" z="0.0"/>
+      <node id="254" x="0.64" y="0.52" z="0.0"/>
+      <node id="255" x="0.68" y="0.52" z="0.0"/>
+      <node id="256" x="0.72" y="0.52" z="0.0"/>
+      <node id="257" x="0.76" y="0.52" z="0.0"/>
+      <node id="258" x="0.8" y="0.52" z="0.0"/>
+      <node id="259" x="0.0" y="0.56" z="0.0"/>
+      <node id="260" x="0.04" y="0.56" z="0.0"/>
+      <node id="261" x="0.08" y="0.56" z="0.0"/>
+      <node id="262" x="0.12" y="0.56" z="0.0"/>
+      <node id="263" x="0.16" y="0.56" z="0.0"/>
+      <node id="264" x="0.2" y="0.56" z="0.0"/>
+      <node id="265" x="0.24" y="0.56" z="0.0"/>
+      <node id="266" x="0.28" y="0.56" z="0.0"/>
+      <node id="267" x="0.32" y="0.56" z="0.0"/>
+      <node id="268" x="0.36" y="0.56" z="0.0"/>
+      <node id="269" x="0.4" y="0.56" z="0.0"/>
+      <node id="270" x="0.44" y="0.56" z="0.0"/>
+      <node id="271" x="0.48" y="0.56" z="0.0"/>
+      <node id="272" x="0.52" y="0.56" z="0.0"/>
+      <node id="273" x="0.56" y="0.56" z="0.0"/>
+      <node id="274" x="0.6" y="0.56" z="0.0"/>
+      <node id="275" x="0.64" y="0.56" z="0.0"/>
+      <node id="276" x="0.68" y="0.56" z="0.0"/>
+      <node id="277" x="0.72" y="0.56" z="0.0"/>
+      <node id="278" x="0.76" y="0.56" z="0.0"/>
+      <node id="279" x="0.8" y="0.56" z="0.0"/>
+      <node id="280" x="0.0" y="0.6" z="0.0"/>
+      <node id="281" x="0.04" y="0.6" z="0.0"/>
+      <node id="282" x="0.08" y="0.6" z="0.0"/>
+      <node id="283" x="0.12" y="0.6" z="0.0"/>
+      <node id="284" x="0.16" y="0.6" z="0.0"/>
+      <node id="285" x="0.2" y="0.6" z="0.0"/>
+      <node id="286" x="0.24" y="0.6" z="0.0"/>
+      <node id="287" x="0.28" y="0.6" z="0.0"/>
+      <node id="288" x="0.32" y="0.6" z="0.0"/>
+      <node id="289" x="0.36" y="0.6" z="0.0"/>
+      <node id="290" x="0.4" y="0.6" z="0.0"/>
+      <node id="291" x="0.44" y="0.6" z="0.0"/>
+      <node id="292" x="0.48" y="0.6" z="0.0"/>
+      <node id="293" x="0.52" y="0.6" z="0.0"/>
+      <node id="294" x="0.56" y="0.6" z="0.0"/>
+      <node id="295" x="0.6" y="0.6" z="0.0"/>
+      <node id="296" x="0.64" y="0.6" z="0.0"/>
+      <node id="297" x="0.68" y="0.6" z="0.0"/>
+      <node id="298" x="0.72" y="0.6" z="0.0"/>
+      <node id="299" x="0.76" y="0.6" z="0.0"/>
+      <node id="300" x="0.8" y="0.6" z="0.0"/>
+    </Nodes>
+
+    <Elements type="tri3" name="mesh">
+      <elem id="1">1 2 22</elem>
+      <elem id="2">2 23 22</elem>
+      <elem id="3">2 3 23</elem>
+      <elem id="4">3 24 23</elem>
+      <elem id="5">3 4 24</elem>
+      <elem id="6">4 25 24</elem>
+      <elem id="7">4 5 25</elem>
+      <elem id="8">5 26 25</elem>
+      <elem id="9">5 6 26</elem>
+      <elem id="10">6 27 26</elem>
+      <elem id="11">6 7 27</elem>
+      <elem id="12">7 28 27</elem>
+      <elem id="13">7 8 28</elem>
+      <elem id="14">8 29 28</elem>
+      <elem id="15">8 9 29</elem>
+      <elem id="16">9 30 29</elem>
+      <elem id="17">9 10 30</elem>
+      <elem id="18">10 31 30</elem>
+      <elem id="19">10 11 31</elem>
+      <elem id="20">11 32 31</elem>
+      <elem id="21">11 12 32</elem>
+      <elem id="22">12 33 32</elem>
+      <elem id="23">12 13 33</elem>
+      <elem id="24">13 34 33</elem>
+      <elem id="25">13 14 34</elem>
+      <elem id="26">14 35 34</elem>
+      <elem id="27">14 15 35</elem>
+      <elem id="28">15 36 35</elem>
+      <elem id="29">15 16 36</elem>
+      <elem id="30">16 37 36</elem>
+      <elem id="31">16 17 37</elem>
+      <elem id="32">17 38 37</elem>
+      <elem id="33">17 18 38</elem>
+      <elem id="34">18 39 38</elem>
+      <elem id="35">18 19 39</elem>
+      <elem id="36">19 40 39</elem>
+      <elem id="37">19 20 40</elem>
+      <elem id="38">20 41 40</elem>
+      <elem id="39">20 21 41</elem>
+      <elem id="40">21 42 41</elem>
+      <elem id="41">22 23 43</elem>
+      <elem id="42">23 44 43</elem>
+      <elem id="43">23 24 44</elem>
+      <elem id="44">24 45 44</elem>
+      <elem id="45">24 25 45</elem>
+      <elem id="46">25 46 45</elem>
+      <elem id="47">25 26 46</elem>
+      <elem id="48">26 47 46</elem>
+      <elem id="49">26 27 47</elem>
+      <elem id="50">27 48 47</elem>
+      <elem id="51">27 28 48</elem>
+      <elem id="52">28 49 48</elem>
+      <elem id="53">28 29 49</elem>
+      <elem id="54">29 50 49</elem>
+      <elem id="55">29 30 50</elem>
+      <elem id="56">30 51 50</elem>
+      <elem id="57">30 31 51</elem>
+      <elem id="58">31 52 51</elem>
+      <elem id="59">31 32 52</elem>
+      <elem id="60">32 53 52</elem>
+      <elem id="61">32 33 53</elem>
+      <elem id="62">33 54 53</elem>
+      <elem id="63">33 34 54</elem>
+      <elem id="64">34 55 54</elem>
+      <elem id="65">34 35 55</elem>
+      <elem id="66">35 56 55</elem>
+      <elem id="67">35 36 56</elem>
+      <elem id="68">36 57 56</elem>
+      <elem id="69">36 37 57</elem>
+      <elem id="70">37 58 57</elem>
+      <elem id="71">37 38 58</elem>
+      <elem id="72">38 59 58</elem>
+      <elem id="73">38 39 59</elem>
+      <elem id="74">39 60 59</elem>
+      <elem id="75">39 40 60</elem>
+      <elem id="76">40 61 60</elem>
+      <elem id="77">40 41 61</elem>
+      <elem id="78">41 62 61</elem>
+      <elem id="79">41 42 62</elem>
+      <elem id="80">42 63 62</elem>
+      <elem id="81">43 44 64</elem>
+      <elem id="82">44 65 64</elem>
+      <elem id="83">44 45 65</elem>
+      <elem id="84">45 66 65</elem>
+      <elem id="85">45 46 66</elem>
+      <elem id="86">46 67 66</elem>
+      <elem id="87">46 47 67</elem>
+      <elem id="88">47 68 67</elem>
+      <elem id="89">47 48 68</elem>
+      <elem id="90">48 69 68</elem>
+      <elem id="91">48 49 69</elem>
+      <elem id="92">49 70 69</elem>
+      <elem id="93">49 50 70</elem>
+      <elem id="94">50 71 70</elem>
+      <elem id="95">50 51 71</elem>
+      <elem id="96">51 72 71</elem>
+      <elem id="97">51 52 72</elem>
+      <elem id="98">52 73 72</elem>
+      <elem id="99">52 53 73</elem>
+      <elem id="100">53 74 73</elem>
+      <elem id="101">53 54 74</elem>
+      <elem id="102">54 75 74</elem>
+      <elem id="103">54 55 75</elem>
+      <elem id="104">55 76 75</elem>
+      <elem id="105">55 56 76</elem>
+      <elem id="106">56 77 76</elem>
+      <elem id="107">56 57 77</elem>
+      <elem id="108">57 78 77</elem>
+      <elem id="109">57 58 78</elem>
+      <elem id="110">58 79 78</elem>
+      <elem id="111">58 59 79</elem>
+      <elem id="112">59 80 79</elem>
+      <elem id="113">59 60 80</elem>
+      <elem id="114">60 81 80</elem>
+      <elem id="115">60 61 81</elem>
+      <elem id="116">61 82 81</elem>
+      <elem id="117">61 62 82</elem>
+      <elem id="118">62 83 82</elem>
+      <elem id="119">62 63 83</elem>
+      <elem id="120">63 84 83</elem>
+      <elem id="121">64 65 85</elem>
+      <elem id="122">65 86 85</elem>
+      <elem id="123">65 66 86</elem>
+      <elem id="124">66 87 86</elem>
+      <elem id="125">66 67 87</elem>
+      <elem id="126">67 88 87</elem>
+      <elem id="127">67 68 88</elem>
+      <elem id="128">68 89 88</elem>
+      <elem id="129">68 69 89</elem>
+      <elem id="130">69 90 89</elem>
+      <elem id="131">69 70 90</elem>
+      <elem id="132">70 91 90</elem>
+      <elem id="133">70 71 91</elem>
+      <elem id="134">71 92 91</elem>
+      <elem id="135">71 72 92</elem>
+      <elem id="136">72 93 92</elem>
+      <elem id="137">72 73 93</elem>
+      <elem id="138">73 94 93</elem>
+      <elem id="139">73 74 94</elem>
+      <elem id="140">74 95 94</elem>
+      <elem id="141">74 75 95</elem>
+      <elem id="142">75 96 95</elem>
+      <elem id="143">75 76 96</elem>
+      <elem id="144">76 97 96</elem>
+      <elem id="145">76 77 97</elem>
+      <elem id="146">77 98 97</elem>
+      <elem id="147">77 78 98</elem>
+      <elem id="148">78 99 98</elem>
+      <elem id="149">78 79 99</elem>
+      <elem id="150">79 100 99</elem>
+      <elem id="151">79 80 100</elem>
+      <elem id="152">80 101 100</elem>
+      <elem id="153">80 81 101</elem>
+      <elem id="154">81 102 101</elem>
+      <elem id="155">81 82 102</elem>
+      <elem id="156">82 103 102</elem>
+      <elem id="157">82 83 103</elem>
+      <elem id="158">83 104 103</elem>
+      <elem id="159">83 84 104</elem>
+      <elem id="160">84 105 104</elem>
+      <elem id="161">85 86 106</elem>
+      <elem id="162">86 107 106</elem>
+      <elem id="163">86 87 107</elem>
+      <elem id="164">87 108 107</elem>
+      <elem id="165">87 88 108</elem>
+      <elem id="166">88 109 108</elem>
+      <elem id="167">88 89 109</elem>
+      <elem id="168">89 110 109</elem>
+      <elem id="169">89 90 110</elem>
+      <elem id="170">90 111 110</elem>
+      <elem id="171">90 91 111</elem>
+      <elem id="172">91 112 111</elem>
+      <elem id="173">91 92 112</elem>
+      <elem id="174">92 113 112</elem>
+      <elem id="175">92 93 113</elem>
+      <elem id="176">93 114 113</elem>
+      <elem id="177">93 94 114</elem>
+      <elem id="178">94 115 114</elem>
+      <elem id="179">94 95 115</elem>
+      <elem id="180">95 116 115</elem>
+      <elem id="181">95 96 116</elem>
+      <elem id="182">96 117 116</elem>
+      <elem id="183">96 97 117</elem>
+      <elem id="184">97 118 117</elem>
+      <elem id="185">97 98 118</elem>
+      <elem id="186">98 119 118</elem>
+      <elem id="187">98 99 119</elem>
+      <elem id="188">99 120 119</elem>
+      <elem id="189">99 100 120</elem>
+      <elem id="190">100 121 120</elem>
+      <elem id="191">100 101 121</elem>
+      <elem id="192">101 122 121</elem>
+      <elem id="193">101 102 122</elem>
+      <elem id="194">102 123 122</elem>
+      <elem id="195">102 103 123</elem>
+      <elem id="196">103 124 123</elem>
+      <elem id="197">103 104 124</elem>
+      <elem id="198">104 125 124</elem>
+      <elem id="199">104 105 125</elem>
+      <elem id="200">105 126 125</elem>
+      <elem id="201">106 107 127</elem>
+      <elem id="202">107 128 127</elem>
+      <elem id="203">107 108 128</elem>
+      <elem id="204">108 129 128</elem>
+      <elem id="205">108 109 129</elem>
+      <elem id="206">109 130 129</elem>
+      <elem id="207">109 110 130</elem>
+      <elem id="208">110 131 130</elem>
+      <elem id="209">110 111 131</elem>
+      <elem id="210">111 132 131</elem>
+      <elem id="211">121 122 133</elem>
+      <elem id="212">122 134 133</elem>
+      <elem id="213">122 123 134</elem>
+      <elem id="214">123 135 134</elem>
+      <elem id="215">123 124 135</elem>
+      <elem id="216">124 136 135</elem>
+      <elem id="217">124 125 136</elem>
+      <elem id="218">125 137 136</elem>
+      <elem id="219">125 126 137</elem>
+      <elem id="220">126 138 137</elem>
+      <elem id="221">127 128 139</elem>
+      <elem id="222">128 140 139</elem>
+      <elem id="223">128 129 140</elem>
+      <elem id="224">129 141 140</elem>
+      <elem id="225">129 130 141</elem>
+      <elem id="226">130 142 141</elem>
+      <elem id="227">130 131 142</elem>
+      <elem id="228">131 143 142</elem>
+      <elem id="229">131 132 143</elem>
+      <elem id="230">132 144 143</elem>
+      <elem id="231">133 134 145</elem>
+      <elem id="232">134 146 145</elem>
+      <elem id="233">134 135 146</elem>
+      <elem id="234">135 147 146</elem>
+      <elem id="235">135 136 147</elem>
+      <elem id="236">136 148 147</elem>
+      <elem id="237">136 137 148</elem>
+      <elem id="238">137 149 148</elem>
+      <elem id="239">137 138 149</elem>
+      <elem id="240">138 150 149</elem>
+      <elem id="241">139 140 151</elem>
+      <elem id="242">140 152 151</elem>
+      <elem id="243">140 141 152</elem>
+      <elem id="244">141 153 152</elem>
+      <elem id="245">141 142 153</elem>
+      <elem id="246">142 154 153</elem>
+      <elem id="247">142 143 154</elem>
+      <elem id="248">143 155 154</elem>
+      <elem id="249">143 144 155</elem>
+      <elem id="250">144 156 155</elem>
+      <elem id="251">145 146 157</elem>
+      <elem id="252">146 158 157</elem>
+      <elem id="253">146 147 158</elem>
+      <elem id="254">147 159 158</elem>
+      <elem id="255">147 148 159</elem>
+      <elem id="256">148 160 159</elem>
+      <elem id="257">148 149 160</elem>
+      <elem id="258">149 161 160</elem>
+      <elem id="259">149 150 161</elem>
+      <elem id="260">150 162 161</elem>
+      <elem id="261">151 152 163</elem>
+      <elem id="262">152 164 163</elem>
+      <elem id="263">152 153 164</elem>
+      <elem id="264">153 165 164</elem>
+      <elem id="265">153 154 165</elem>
+      <elem id="266">154 166 165</elem>
+      <elem id="267">154 155 166</elem>
+      <elem id="268">155 167 166</elem>
+      <elem id="269">155 156 167</elem>
+      <elem id="270">156 168 167</elem>
+      <elem id="271">157 158 169</elem>
+      <elem id="272">158 170 169</elem>
+      <elem id="273">158 159 170</elem>
+      <elem id="274">159 171 170</elem>
+      <elem id="275">159 160 171</elem>
+      <elem id="276">160 172 171</elem>
+      <elem id="277">160 161 172</elem>
+      <elem id="278">161 173 172</elem>
+      <elem id="279">161 162 173</elem>
+      <elem id="280">162 174 173</elem>
+      <elem id="281">163 164 175</elem>
+      <elem id="282">164 176 175</elem>
+      <elem id="283">164 165 176</elem>
+      <elem id="284">165 177 176</elem>
+      <elem id="285">165 166 177</elem>
+      <elem id="286">166 178 177</elem>
+      <elem id="287">166 167 178</elem>
+      <elem id="288">167 179 178</elem>
+      <elem id="289">167 168 179</elem>
+      <elem id="290">168 180 179</elem>
+      <elem id="291">169 170 190</elem>
+      <elem id="292">170 191 190</elem>
+      <elem id="293">170 171 191</elem>
+      <elem id="294">171 192 191</elem>
+      <elem id="295">171 172 192</elem>
+      <elem id="296">172 193 192</elem>
+      <elem id="297">172 173 193</elem>
+      <elem id="298">173 194 193</elem>
+      <elem id="299">173 174 194</elem>
+      <elem id="300">174 195 194</elem>
+      <elem id="301">175 176 196</elem>
+      <elem id="302">176 197 196</elem>
+      <elem id="303">176 177 197</elem>
+      <elem id="304">177 198 197</elem>
+      <elem id="305">177 178 198</elem>
+      <elem id="306">178 199 198</elem>
+      <elem id="307">178 179 199</elem>
+      <elem id="308">179 200 199</elem>
+      <elem id="309">179 180 200</elem>
+      <elem id="310">180 201 200</elem>
+      <elem id="311">180 181 201</elem>
+      <elem id="312">181 202 201</elem>
+      <elem id="313">181 182 202</elem>
+      <elem id="314">182 203 202</elem>
+      <elem id="315">182 183 203</elem>
+      <elem id="316">183 204 203</elem>
+      <elem id="317">183 184 204</elem>
+      <elem id="318">184 205 204</elem>
+      <elem id="319">184 185 205</elem>
+      <elem id="320">185 206 205</elem>
+      <elem id="321">185 186 206</elem>
+      <elem id="322">186 207 206</elem>
+      <elem id="323">186 187 207</elem>
+      <elem id="324">187 208 207</elem>
+      <elem id="325">187 188 208</elem>
+      <elem id="326">188 209 208</elem>
+      <elem id="327">188 189 209</elem>
+      <elem id="328">189 210 209</elem>
+      <elem id="329">189 190 210</elem>
+      <elem id="330">190 211 210</elem>
+      <elem id="331">190 191 211</elem>
+      <elem id="332">191 212 211</elem>
+      <elem id="333">191 192 212</elem>
+      <elem id="334">192 213 212</elem>
+      <elem id="335">192 193 213</elem>
+      <elem id="336">193 214 213</elem>
+      <elem id="337">193 194 214</elem>
+      <elem id="338">194 215 214</elem>
+      <elem id="339">194 195 215</elem>
+      <elem id="340">195 216 215</elem>
+      <elem id="341">196 197 217</elem>
+      <elem id="342">197 218 217</elem>
+      <elem id="343">197 198 218</elem>
+      <elem id="344">198 219 218</elem>
+      <elem id="345">198 199 219</elem>
+      <elem id="346">199 220 219</elem>
+      <elem id="347">199 200 220</elem>
+      <elem id="348">200 221 220</elem>
+      <elem id="349">200 201 221</elem>
+      <elem id="350">201 222 221</elem>
+      <elem id="351">201 202 222</elem>
+      <elem id="352">202 223 222</elem>
+      <elem id="353">202 203 223</elem>
+      <elem id="354">203 224 223</elem>
+      <elem id="355">203 204 224</elem>
+      <elem id="356">204 225 224</elem>
+      <elem id="357">204 205 225</elem>
+      <elem id="358">205 226 225</elem>
+      <elem id="359">205 206 226</elem>
+      <elem id="360">206 227 226</elem>
+      <elem id="361">206 207 227</elem>
+      <elem id="362">207 228 227</elem>
+      <elem id="363">207 208 228</elem>
+      <elem id="364">208 229 228</elem>
+      <elem id="365">208 209 229</elem>
+      <elem id="366">209 230 229</elem>
+      <elem id="367">209 210 230</elem>
+      <elem id="368">210 231 230</elem>
+      <elem id="369">210 211 231</elem>
+      <elem id="370">211 232 231</elem>
+      <elem id="371">211 212 232</elem>
+      <elem id="372">212 233 232</elem>
+      <elem id="373">212 213 233</elem>
+      <elem id="374">213 234 233</elem>
+      <elem id="375">213 214 234</elem>
+      <elem id="376">214 235 234</elem>
+      <elem id="377">214 215 235</elem>
+      <elem id="378">215 236 235</elem>
+      <elem id="379">215 216 236</elem>
+      <elem id="380">216 237 236</elem>
+      <elem id="381">217 218 238</elem>
+      <elem id="382">218 239 238</elem>
+      <elem id="383">218 219 239</elem>
+      <elem id="384">219 240 239</elem>
+      <elem id="385">219 220 240</elem>
+      <elem id="386">220 241 240</elem>
+      <elem id="387">220 221 241</elem>
+      <elem id="388">221 242 241</elem>
+      <elem id="389">221 222 242</elem>
+      <elem id="390">222 243 242</elem>
+      <elem id="391">222 223 243</elem>
+      <elem id="392">223 244 243</elem>
+      <elem id="393">223 224 244</elem>
+      <elem id="394">224 245 244</elem>
+      <elem id="395">224 225 245</elem>
+      <elem id="396">225 246 245</elem>
+      <elem id="397">225 226 246</elem>
+      <elem id="398">226 247 246</elem>
+      <elem id="399">226 227 247</elem>
+      <elem id="400">227 248 247</elem>
+      <elem id="401">227 228 248</elem>
+      <elem id="402">228 249 248</elem>
+      <elem id="403">228 229 249</elem>
+      <elem id="404">229 250 249</elem>
+      <elem id="405">229 230 250</elem>
+      <elem id="406">230 251 250</elem>
+      <elem id="407">230 231 251</elem>
+      <elem id="408">231 252 251</elem>
+      <elem id="409">231 232 252</elem>
+      <elem id="410">232 253 252</elem>
+      <elem id="411">232 233 253</elem>
+      <elem id="412">233 254 253</elem>
+      <elem id="413">233 234 254</elem>
+      <elem id="414">234 255 254</elem>
+      <elem id="415">234 235 255</elem>
+      <elem id="416">235 256 255</elem>
+      <elem id="417">235 236 256</elem>
+      <elem id="418">236 257 256</elem>
+      <elem id="419">236 237 257</elem>
+      <elem id="420">237 258 257</elem>
+      <elem id="421">238 239 259</elem>
+      <elem id="422">239 260 259</elem>
+      <elem id="423">239 240 260</elem>
+      <elem id="424">240 261 260</elem>
+      <elem id="425">240 241 261</elem>
+      <elem id="426">241 262 261</elem>
+      <elem id="427">241 242 262</elem>
+      <elem id="428">242 263 262</elem>
+      <elem id="429">242 243 263</elem>
+      <elem id="430">243 264 263</elem>
+      <elem id="431">243 244 264</elem>
+      <elem id="432">244 265 264</elem>
+      <elem id="433">244 245 265</elem>
+      <elem id="434">245 266 265</elem>
+      <elem id="435">245 246 266</elem>
+      <elem id="436">246 267 266</elem>
+      <elem id="437">246 247 267</elem>
+      <elem id="438">247 268 267</elem>
+      <elem id="439">247 248 268</elem>
+      <elem id="440">248 269 268</elem>
+      <elem id="441">248 249 269</elem>
+      <elem id="442">249 270 269</elem>
+      <elem id="443">249 250 270</elem>
+      <elem id="444">250 271 270</elem>
+      <elem id="445">250 251 271</elem>
+      <elem id="446">251 272 271</elem>
+      <elem id="447">251 252 272</elem>
+      <elem id="448">252 273 272</elem>
+      <elem id="449">252 253 273</elem>
+      <elem id="450">253 274 273</elem>
+      <elem id="451">253 254 274</elem>
+      <elem id="452">254 275 274</elem>
+      <elem id="453">254 255 275</elem>
+      <elem id="454">255 276 275</elem>
+      <elem id="455">255 256 276</elem>
+      <elem id="456">256 277 276</elem>
+      <elem id="457">256 257 277</elem>
+      <elem id="458">257 278 277</elem>
+      <elem id="459">257 258 278</elem>
+      <elem id="460">258 279 278</elem>
+      <elem id="461">259 260 280</elem>
+      <elem id="462">260 281 280</elem>
+      <elem id="463">260 261 281</elem>
+      <elem id="464">261 282 281</elem>
+      <elem id="465">261 262 282</elem>
+      <elem id="466">262 283 282</elem>
+      <elem id="467">262 263 283</elem>
+      <elem id="468">263 284 283</elem>
+      <elem id="469">263 264 284</elem>
+      <elem id="470">264 285 284</elem>
+      <elem id="471">264 265 285</elem>
+      <elem id="472">265 286 285</elem>
+      <elem id="473">265 266 286</elem>
+      <elem id="474">266 287 286</elem>
+      <elem id="475">266 267 287</elem>
+      <elem id="476">267 288 287</elem>
+      <elem id="477">267 268 288</elem>
+      <elem id="478">268 289 288</elem>
+      <elem id="479">268 269 289</elem>
+      <elem id="480">269 290 289</elem>
+      <elem id="481">269 270 290</elem>
+      <elem id="482">270 291 290</elem>
+      <elem id="483">270 271 291</elem>
+      <elem id="484">271 292 291</elem>
+      <elem id="485">271 272 292</elem>
+      <elem id="486">272 293 292</elem>
+      <elem id="487">272 273 293</elem>
+      <elem id="488">273 294 293</elem>
+      <elem id="489">273 274 294</elem>
+      <elem id="490">274 295 294</elem>
+      <elem id="491">274 275 295</elem>
+      <elem id="492">275 296 295</elem>
+      <elem id="493">275 276 296</elem>
+      <elem id="494">276 297 296</elem>
+      <elem id="495">276 277 297</elem>
+      <elem id="496">277 298 297</elem>
+      <elem id="497">277 278 298</elem>
+      <elem id="498">278 299 298</elem>
+      <elem id="499">278 279 299</elem>
+      <elem id="500">279 300 299</elem>
+    </Elements>
+  </Geometry>
+
+  <BoundaryConditions>
+    <Boundary>
+      <temperature node="111" value="100.0"/>
+      <temperature node="112" value="100.0"/>
+      <temperature node="113" value="100.0"/>
+      <temperature node="114" value="100.0"/>
+      <temperature node="115" value="100.0"/>
+      <temperature node="116" value="100.0"/>
+      <temperature node="117" value="100.0"/>
+      <temperature node="118" value="100.0"/>
+      <temperature node="119" value="100.0"/>
+      <temperature node="120" value="100.0"/>
+      <temperature node="121" value="100.0"/>
+      <temperature node="132" value="100.0"/>
+      <temperature node="133" value="100.0"/>
+      <temperature node="144" value="100.0"/>
+      <temperature node="145" value="100.0"/>
+      <temperature node="156" value="100.0"/>
+      <temperature node="157" value="100.0"/>
+      <temperature node="168" value="100.0"/>
+      <temperature node="169" value="100.0"/>
+      <temperature node="180" value="100.0"/>
+      <temperature node="181" value="100.0"/>
+      <temperature node="182" value="100.0"/>
+      <temperature node="183" value="100.0"/>
+      <temperature node="184" value="100.0"/>
+      <temperature node="185" value="100.0"/>
+      <temperature node="186" value="100.0"/>
+      <temperature node="187" value="100.0"/>
+      <temperature node="188" value="100.0"/>
+      <temperature node="189" value="100.0"/>
+      <temperature node="190" value="100.0"/>
+      <temperature node="280" value="30.0"/>
+      <temperature node="281" value="30.0"/>
+      <temperature node="282" value="30.0"/>
+      <temperature node="283" value="30.0"/>
+      <temperature node="284" value="30.0"/>
+      <temperature node="285" value="30.0"/>
+      <temperature node="286" value="30.0"/>
+      <temperature node="287" value="30.0"/>
+      <temperature node="288" value="30.0"/>
+      <temperature node="289" value="30.0"/>
+      <temperature node="290" value="30.0"/>
+      <temperature node="291" value="30.0"/>
+      <temperature node="292" value="30.0"/>
+      <temperature node="293" value="30.0"/>
+      <temperature node="294" value="30.0"/>
+      <temperature node="295" value="30.0"/>
+      <temperature node="296" value="30.0"/>
+      <temperature node="297" value="30.0"/>
+      <temperature node="298" value="30.0"/>
+      <temperature node="299" value="30.0"/>
+      <temperature node="300" value="30.0"/>
+    </Boundary>
+
+    <HeatFlux>
+      <flux elem="1" edge="1" value="0.0"/>
+      <flux elem="3" edge="1" value="0.0"/>
+      <flux elem="5" edge="1" value="0.0"/>
+      <flux elem="7" edge="1" value="0.0"/>
+      <flux elem="9" edge="1" value="0.0"/>
+      <flux elem="11" edge="1" value="0.0"/>
+      <flux elem="13" edge="1" value="0.0"/>
+      <flux elem="15" edge="1" value="0.0"/>
+      <flux elem="17" edge="1" value="0.0"/>
+      <flux elem="19" edge="1" value="0.0"/>
+      <flux elem="21" edge="1" value="0.0"/>
+      <flux elem="23" edge="1" value="0.0"/>
+      <flux elem="25" edge="1" value="0.0"/>
+      <flux elem="27" edge="1" value="0.0"/>
+      <flux elem="29" edge="1" value="0.0"/>
+      <flux elem="31" edge="1" value="0.0"/>
+      <flux elem="33" edge="1" value="0.0"/>
+      <flux elem="35" edge="1" value="0.0"/>
+      <flux elem="37" edge="1" value="0.0"/>
+      <flux elem="39" edge="1" value="0.0"/>
+    </HeatFlux>
+
+    <Convection>
+      <conv elem="40" edge="1" h="50.0" Tinf="25.0"/>
+      <conv elem="80" edge="1" h="50.0" Tinf="25.0"/>
+      <conv elem="120" edge="1" h="50.0" Tinf="25.0"/>
+      <conv elem="160" edge="1" h="50.0" Tinf="25.0"/>
+      <conv elem="200" edge="1" h="50.0" Tinf="25.0"/>
+      <conv elem="220" edge="1" h="50.0" Tinf="25.0"/>
+      <conv elem="240" edge="1" h="50.0" Tinf="25.0"/>
+      <conv elem="260" edge="1" h="50.0" Tinf="25.0"/>
+      <conv elem="280" edge="1" h="50.0" Tinf="25.0"/>
+      <conv elem="300" edge="1" h="50.0" Tinf="25.0"/>
+      <conv elem="340" edge="1" h="50.0" Tinf="25.0"/>
+      <conv elem="380" edge="1" h="50.0" Tinf="25.0"/>
+      <conv elem="420" edge="1" h="50.0" Tinf="25.0"/>
+      <conv elem="460" edge="1" h="50.0" Tinf="25.0"/>
+      <conv elem="500" edge="1" h="50.0" Tinf="25.0"/>
+    </Convection>
+  </BoundaryConditions>
+
+  <Step name="step1" type="steady-state">
+    <HeatSource>
+    </HeatSource>
+  </Step>
+</SEMFE_spec>
